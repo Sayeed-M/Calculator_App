@@ -38,19 +38,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class CalculatorApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Calculator',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Calculator(),
-    );
-  }
-}
-
 class Calculator extends StatefulWidget {
   @override
   _CalculatorState createState() => _CalculatorState();
